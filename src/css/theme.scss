@@ -1,0 +1,55 @@
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import "../../node_modules/bulma/sass/utilities/functions";
+@import "../../node_modules/bulma/sass/utilities/derived-variables";
+@import "../../node_modules/bulma/bulma.sass";
+@import url("https://use.typekit.net/svf0rss.css");
+
+$dark: #282931;
+$light: #ffffff;
+$lightyellow: #ebf0cc;
+
+/* bulma overrides, do it right? */
+.is-centered {
+  text-align:center;
+}
+.is-skinny {
+  padding: 10px;
+}
+.tag:hover {
+  background-color: $lightyellow;
+}
+.hero.is-dark {
+  background-color: $dark;
+}
+progress {
+  margin: 10px 0;
+}
+blockquote {
+    font-weight: bold;
+    font-style: italic;
+    color: $dark;
+}
+
+body {
+  section {
+    &.brand {
+      background:
+        linear-gradient(
+          rgba(255, 252, 204, 0.86),
+          rgba(71, 41, 236, 0.28)
+        ),
+        url('/src/img/wall_wide_mini.jpg');
+      background-size: cover;
+      height: 420px;
+      h1 {
+        color: $dark;
+        font-size: 4rem;
+        text-shadow: 4px 3px 0px transparent, 5px 4px 0px #e9edc8cc;
+      }
+    }
+  }
+
+  footer.footer {
+    background: linear-gradient(rgba(255, 252, 204, 0.86), rgba(67, 192, 216, 0.28));
+  }
+}
