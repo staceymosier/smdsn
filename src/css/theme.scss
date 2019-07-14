@@ -4,7 +4,6 @@
 @import "../../node_modules/bulma/bulma.sass";
 @import url("https://use.typekit.net/svf0rss.css");
 
-
 $dark: #282931;
 $light: #ffffff;
 $lightyellow: #ebf0cc;
@@ -18,10 +17,10 @@ $mustard: #c7d100;
   padding: 10px; }
 
 .tag:hover {
-  background-color: #ebf0cc; }
+  background-color: $lightyellow; }
 
 .hero.is-dark {
-  background-color: #282931; }
+  background-color: $dark; }
 
 progress {
   margin: 10px 0; }
@@ -29,14 +28,14 @@ progress {
 blockquote {
   font-weight: bold;
   font-style: italic;
-  color: #282931; }
+  color: $dark; }
 
 body section.brand {
   background: linear-gradient(rgba(255, 252, 204, 0.86), rgba(71, 41, 236, 0.28)), url("/src/img/wall_wide_mini.jpg");
   background-size: cover;
   height: 420px; }
   body section.brand h1 {
-    color: #282931;
+    color: $dark;
     font-size: 4rem;
     text-shadow: 4px 3px 0px transparent, 5px 4px 0px #e9edc8cc; }
 body footer.footer {
