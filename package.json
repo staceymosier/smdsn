@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bulma": "^0.6.2",
     "bulma-start": "0.0.2"
+  },
+  "devDependencies": {
+    "sass": "^1.22.9"
   }
 }
